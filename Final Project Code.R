@@ -1,6 +1,6 @@
-setwd(dir = 'C:/Users/i5/Downloads/STA302 Data Analysis I/Final Project')
-data <- read.csv('C:/Users/i5/Downloads/STA302 Data Analysis I/Final Project/housing.csv', header=TRUE)
-set.seed(1004081030)
+setwd(dir = '#####') # replace this with your local file directory
+data <- read.csv('#####', header=TRUE) # input data file path
+set.seed(#####) # input your own selected number
 rows <- sample(1:nrow(data), 1000, replace=FALSE)
 train <- data[rows[1:700],]
 test <- data[rows[701:1000],]
