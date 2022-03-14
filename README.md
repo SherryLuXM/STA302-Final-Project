@@ -46,6 +46,13 @@ R Libraries:
 * leaps
 * pnag
 * xtable
+
+### File Guide
+* Final Project Code: R code containing data analysis and model building
+* housing: dataset that the sample draws from
+* Xiaoman Lu STA302 Final Project Report: written analysis on the project
+
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
