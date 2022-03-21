@@ -19,6 +19,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
+    <li><a href="#Set-up">Set-up</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -64,7 +65,22 @@ shown here, which require different treatments.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+## Set-up
+Run the following code to check the libraries are installed: 
 
+packages_needed <- c("car", "MASS", "leaps", "pnag", "xtable")
+
+package.check <- lapply(
+  packages_needed,
+  FUN = function(x) {
+    if (!require(x, character.only = TRUE)) {
+      install.packages(x, dependencies = TRUE, 
+      repos = "https://cloud.r-project.org/")}})
+      
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+# Remove objects no longer needed
+rm(packages_needed, package.check)
 
 <!-- ROADMAP -->
 ## Roadmap
