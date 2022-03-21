@@ -42,7 +42,6 @@ variables and high leverage points are removed after taking the context into con
 
 ### Built With
 R Libraries:
-* car
 * MASS
 * leaps
 * pnag
@@ -68,7 +67,7 @@ shown here, which require different treatments.
 ## Set-up
 Run the following code to check the libraries are installed: 
 
-packages_needed <- c("car", "MASS", "leaps", "pnag", "xtable")
+packages_needed <- c("MASS", "leaps", "pnag", "xtable")
 
 package.check <- lapply(
   packages_needed,
