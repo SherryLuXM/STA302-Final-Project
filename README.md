@@ -8,7 +8,6 @@
 </div>
 
 
-<!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -54,7 +53,6 @@ R Libraries:
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- USAGE EXAMPLES -->
 ## Usage
 
 The procedure used in this project can be referenced for applying multiple linear regression in other datasets. Please note that it cannot replace a through conceptual 
@@ -75,7 +73,6 @@ package.check <- lapply(
 rm(packages_needed, package.check)
 ```
 
-<!-- ROADMAP -->
 ## Roadmap
 
 - Power Transformation 
@@ -96,12 +93,10 @@ rm(packages_needed, package.check)
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-<!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<!-- CONTACT -->
 ## Contact
 
 Sherry Xiaoman Lu - sherry.luxiaoman@gmail.com
@@ -109,7 +104,6 @@ Sherry Xiaoman Lu - sherry.luxiaoman@gmail.com
 
 Project Link: [https://github.com/SherryLuXM/STA302-Final-Project](https://github.com/SherryLuXM/STA302-Final-Project)
 
-<!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
 * This is the final project from STA302/1001 Methods of Data Analysis 1, taught by Katherine Daignault, taken at University of Toronto in the 2020-2021 Winter term. Professor
@@ -118,6 +112,5 @@ Daignault has provided invaluable training and support.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-<!-- MARKDOWN LINKS & IMAGES -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/sherry-l-633854132/
