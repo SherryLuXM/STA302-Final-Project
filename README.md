@@ -61,8 +61,6 @@ The procedure used in this project can be referenced for applying multiple linea
 understanding, since the order of some steps is interchangeable, while others might not, and in model diagnostics, you might encounter different plots and values than the ones 
 shown here, which require different treatments. 
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 ## Set-up
 Run the following code to check the libraries are installed: 
 
@@ -74,9 +72,8 @@ package.check <- lapply(
     if (!require(x, character.only = TRUE)) {
       install.packages(x, dependencies = TRUE, 
       repos = "https://cloud.r-project.org/")}})
-      
-<p align="right">(<a href="#top">back to top</a>)</p>
 rm(packages_needed, package.check)
+
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -104,10 +101,6 @@ rm(packages_needed, package.check)
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
 <!-- CONTACT -->
 ## Contact
 
@@ -116,10 +109,6 @@ Sherry Xiaoman Lu - sherry.luxiaoman@gmail.com
 
 Project Link: [https://github.com/SherryLuXM/STA302-Final-Project](https://github.com/SherryLuXM/STA302-Final-Project)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
@@ -127,7 +116,6 @@ Project Link: [https://github.com/SherryLuXM/STA302-Final-Project](https://githu
 Daignault has provided invaluable training and support. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
