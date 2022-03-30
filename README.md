@@ -97,6 +97,7 @@ rm(packages_needed, package.check)
     - [x] Scatterplot
     - [x] Correlation table
 
+The actually process is cyclical, but the roadmap provides a good guideline for the general procedure.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
