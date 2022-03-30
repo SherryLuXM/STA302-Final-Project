@@ -97,7 +97,7 @@ rm(packages_needed, package.check)
     - [x] Scatterplot
     - [x] Correlation table
 
-The actually process is cyclical, but the roadmap provides a good guideline for the general procedure.
+**The actually process is cyclical, but the roadmap provides a good guideline for the general procedure.**
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -114,7 +114,7 @@ Project Link: [https://github.com/SherryLuXM/STA302-Final-Project](https://githu
 
 ## Acknowledgments
 
-* This is the final project from STA302/1001 Methods of Data Analysis 1, taught by Katherine Daignault, taken at University of Toronto in the 2020-2021 Winter term. Professor
+* This is the final project from STA302/1001 Methods of Data Analysis 1, taught by **Professor Katherine Daignault**, taken at University of Toronto in the 2020-2021 Winter term. Professor
 Daignault has provided invaluable training and support. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
