@@ -31,9 +31,15 @@
 ## About The Project
 
 This project showcases a rigorous process to develop a muliple linear regression model for predictive and inferential purpose. 
-It uses a dataset of 1000 properties in California, with 14 variables, including the identifier and response. The goal is to understand the factors that affect a property's
-housing price, and to make good prediction on the housing price given some new data with other information. The analytical process focuses on data description, 
-data visualization, variable selection, model transformation, model diagnostics, model validation, and model interpretation. The concepts used include ANOVA, power 
+It uses a dataset of 1000 properties in California, with 14 variables, including the identifier and response. 
+
+The goal is to understand the factors that affect a property's
+housing price, and to make good prediction on the housing price given some new data with other information. 
+
+The analytical process focuses on data description, 
+data visualization, variable selection, model transformation, model diagnostics, model validation, and model interpretation. 
+
+The concepts used include ANOVA, power 
 transformation, analysis of covariance, AIC(Akaike Information Criteria), ajusted AIC, BIC, QQ plots, stepwise variable selection, VIF(variance inflation factor). The two 
 preconditions and four assumptions for a multiple linear regression model are checked and the model is handled appropriately to deal with any violation. In the analysis of 
 covariance, models with different main effect and interaction terms are investigated and compared. The variables have been checked for multicollinearity, and highly correlated 
@@ -76,20 +82,20 @@ rm(packages_needed, package.check)
 
 ## Roadmap
 
-- Power Transformation 
-- Preconditions Check
-- Assumptions Check
-- Variable Selection
-- Analysis of Covariance
-- High Leverage Points Check
-- Preconditions Recheck
-- Assumptions Recheck
-- Model Validation
-- Summary Statistics
-    - Histogram
-    - Boxplot
-    - Scatterplot
-    - Correlation table
+- [x] Power Transformation 
+- [x] Preconditions Check
+- [x] Assumptions Check
+- [x] Variable Selection
+- [x] Analysis of Covariance
+- [x] High Leverage Points Check
+- [x] Preconditions Recheck
+- [x] Assumptions Recheck
+- [x] Model Validation
+- [x] Summary Statistics
+    - [x] Histogram
+    - [x] Boxplot
+    - [x] Scatterplot
+    - [x] Correlation table
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
