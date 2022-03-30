@@ -64,8 +64,8 @@ shown here, which require different treatments.
 ## Set-up
 Run the following code to check the libraries are installed: 
 
+```
 packages_needed <- c("MASS", "leaps", "pnag", "xtable")
-
 package.check <- lapply(
   packages_needed,
   FUN = function(x) {
@@ -73,7 +73,7 @@ package.check <- lapply(
       install.packages(x, dependencies = TRUE, 
       repos = "https://cloud.r-project.org/")}})
 rm(packages_needed, package.check)
-
+```
 
 <!-- ROADMAP -->
 ## Roadmap
