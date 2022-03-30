@@ -76,8 +76,6 @@ package.check <- lapply(
       repos = "https://cloud.r-project.org/")}})
       
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-# Remove objects no longer needed
 rm(packages_needed, package.check)
 
 <!-- ROADMAP -->
